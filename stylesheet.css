@@ -1,0 +1,75 @@
+
+body {
+    background: linear-gradient(to right, #ff5f6d, #ffc371);
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    
+    color: rgb(60, 99, 92)
+}
+
+.container {
+    position: relative;
+}
+
+.container h1 {
+    font-size: 3em;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    
+}
+
+.container h1 span {
+    display: block;
+}
+
+.container h1 .offset {
+    position: absolute;
+    left: 80px; /* Adjust this value to set the desired offset */
+    top: 45px;
+    color: rgb(58, 77, 105); /* Optional: change color if needed */
+    font-family: "Playfair Display", italic;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#demo {
+    font-size: 200px;
+    margin: center;
+    font-family: "Playfair Display", italic;
+}
+
+
+
+
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box {
+    background-color: #1E1E1E;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+.box .number {
+    font-size: 2em;
+    font-weight: bold;
+}
+.arrow {
+    color: #FFC107;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+}
+.middle-text {
+    margin: 0 20px;
+}
